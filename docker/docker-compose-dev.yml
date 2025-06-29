@@ -9,6 +9,6 @@ services:
       - ../server:/app/server
       - ../db:/app/db
     ports:
-      - "3001:3001"  # <Host Port>:<Container Port>
+      - "3111:3111"  # <Host Port>:<Container Port>
       - "3307:3306"
 
